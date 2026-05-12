@@ -93,6 +93,7 @@ def save_to_json(books, users, filepath = "library_date.json"):
 "Example usage"
 book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 1)
 book2 = Book("To Kill a Mockingbird", "Harper Lee", 1960, 2)
+book3 = Book("1984", "George Orwell", 1949, 3)
 
 
 book_display = Display()
@@ -106,12 +107,15 @@ user1.borrow_book(book1)
 Display.display_book_info(book1)
 user2.borrow_book(book1)
 
+Display.display_book_info(book1)
 user3.borrow_book(book2)
 
 Display.display_book_info(book2)
 
 user3.return_book(book2)
 
+Display.display_book_info(book3)
+user3.borrow_book(book3)
 
 
-save_to_json(books=[book1, book2], users=[user1, user2, user3])
+save_to_json(books=[book1, book2, book3], users=[user1, user2, user3])

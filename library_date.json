@@ -7,8 +7,8 @@
             "year": 1925,
             "is_available": false,
             "borrower": "Alice",
-            "created_at": "2026-05-12T20:23:32.388197",
-            "updated_at": "2026-05-12T20:23:32.388291"
+            "created_at": "2026-05-12T22:04:15.120163",
+            "updated_at": "2026-05-12T22:04:15.120197"
         },
         {
             "id": 2,
@@ -17,8 +17,18 @@
             "year": 1960,
             "is_available": true,
             "borrower": null,
-            "created_at": "2026-05-12T20:23:32.388203",
-            "updated_at": "2026-05-12T20:23:32.388348"
+            "created_at": "2026-05-12T22:04:15.120168",
+            "updated_at": "2026-05-12T22:04:15.120213"
+        },
+        {
+            "id": 3,
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949,
+            "is_available": false,
+            "borrower": "Collins",
+            "created_at": "2026-05-12T22:04:15.120169",
+            "updated_at": "2026-05-12T22:04:15.120232"
         }
     ],
     "users": [
@@ -29,24 +39,26 @@
             "borrowed_books_ids": [
                 1
             ],
-            "created_at": "2026-05-12T20:23:32.388204",
-            "updated_at": "2026-05-12T20:23:32.388290"
+            "created_at": "2026-05-12T22:04:15.120171",
+            "updated_at": "2026-05-12T22:04:15.120197"
         },
         {
             "id": 1002,
             "UID": 2,
             "name": "Bob",
             "borrowed_books_ids": [],
-            "created_at": "2026-05-12T20:23:32.388205",
-            "updated_at": "2026-05-12T20:23:32.388206"
+            "created_at": "2026-05-12T22:04:15.120172",
+            "updated_at": "2026-05-12T22:04:15.120172"
         },
         {
             "id": 1003,
             "UID": 3,
             "name": "Collins",
-            "borrowed_books_ids": [],
-            "created_at": "2026-05-12T20:23:32.388206",
-            "updated_at": "2026-05-12T20:23:32.388348"
+            "borrowed_books_ids": [
+                3
+            ],
+            "created_at": "2026-05-12T22:04:15.120173",
+            "updated_at": "2026-05-12T22:04:15.120231"
         }
     ]
 }
